@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+html {
+    margin:0px;
+}
+
+body {
+    animation: move;
+    animation-duration: 500ms;
+}
+
+/* CSS pour le titre et le nav*/
+
+header {
+    width: auto;
+    height: 7em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ca {
+    display: flex;
+    justify-content: center;
+}
+
+/* Mise en page du Premier block*/
+
+.containers {
+    width: auto;
+    height: 51em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titre {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.bienvenue {
+    position: absolute;
+    color:white;
+    font-size: 45px;
+    padding: 40px;
+}
+
+.damien {
+    font-size: 15px;
+    position: absolute;
+    color:white;
+    text-align: center;
+}
+
+.bloc {
+    background-color: white;
+    position: absolute;
+    width: 70%;
+    height: 9%;
+    top:30%;
+}
+
+#twitterid {
+    position: absolute;
+    width: 15em;
+    right: 43%;
+    top:40%;
+}
+
+/* Mise en page du Deuxième block*/
+
+.article {
+    margin: 40px;
+    width: auto;
+    height: 30em;
+    display: inline-block;  
+    text-align:start;  
+}
+
+.article1 {
+    display: inline-block;
+    padding: 15px;
+    width: 600px;
+}
+
+.date {
+    color:rgb(173, 173, 173);
+}
+
+.arti {
+    display: inline-flex;
+}
+
+/* Mise en page du pied de page avec la newsletter*/
+
+footer {
+    background-color: rgb(22, 22, 22);
+    width: auto;
+    height: 8em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+}
+
+.mailing {
+    display: flex;
+    justify-content: center;
+}
+
+.envoyer {
+    display: flex;
+    justify-content: center;
+}
+
+/* Le côté responsive pour mobile */
+
+@media (max-width: 1950px) {
+    .bloc {
+        position: absolute;
+        width: 70%;
+        height: 9%;
+        top:30%;
+    }
+    #twitterid {
+        position: absolute;
+        width: 15em;
+        right: 43%;
+        top:42%;
+    }
+ }
+
+ @media (max-width: 1900px) {
+    .bloc {
+        position: absolute;
+        width: 70%;
+        height: 17%;
+        top:30%;
+    }
+    #twitterid {
+        position: absolute;
+        width: 15em;
+        right: 43%;
+        top:48%;
+    }
+    footer {
+        display: none;
+    }
+     .containers {
+        overflow-x: hidden;
+    }
+ }
+
+ @media (max-width: 1800px) {
+    .bloc {
+        position: absolute;
+        width: 70%;
+        height: 15%;
+        top:30%;
+    }
+    #twitterid {
+        position: absolute;
+        width: 15em;
+        right: 42%;
+        top:51%;
+    }
+ }
+
+ @media (max-width: 1500px) {
+    .bloc {
+        position: absolute;
+        width: 70%;
+        height: 20%;
+        top:30%;
+    }
+    #twitterid {
+        position: absolute;
+        width: 15em;
+        right: 42%;
+        top:55%;
+    }
+ }
+ 
+
+ @media (max-width:1200px) {
+    .bloc {
+        position: absolute;
+        width: 70%;
+        height: 26%;
+        top:30%;
+    }
+    #twitterid {
+        position: absolute;
+        width: 15em;
+        right: 39%;
+        top:59%;
+    }
+ }
+
+ @media (max-width:843px) {
+    .bloc {
+        position: absolute;
+        width: 70%;
+        height: 31%;
+        top:30%;
+    }
+    #twitterid {
+        position: absolute;
+        width: 15em;
+        right: 35%;
+        top:63%;
+    }
+    .bienvenue {
+        font-size:31px;
+ }
+
+ @media (max-width:761px) {
+    .bloc {
+        position: absolute;
+        width: 70%;
+        height: 35%;
+        top:30%;
+    }
+    #twitterid {
+        position: absolute;
+        width: 15em;
+        right: 33%;
+        top:67%;
+    }
+    
+   .bienvenue {
+    display: none;
+}
+
+ }
+
+ @media (max-width:628px) {
+    .bloc {
+        position: absolute;
+        width: 70%;
+        height: 40%;
+        top:30%;
+    }
+    #twitterid {
+        position: absolute;
+        width: 15em;
+        right: 30%;
+        top:71%;
+    }
+ }
+
+ @media (max-width:599px) {
+    .bloc {
+        position: absolute;
+        width: 70%;
+        height: 45%;
+        top:30%;
+    }
+    #twitterid {
+        position: absolute;
+        width: 15em;
+        right: 28%;
+        top:75%;
+    }
+ }
+
+ @media (max-width:560px) {
+    .bloc {
+        position: absolute;
+        width: 70%;
+        height: 48%;
+        top:30%;
+    }
+    #twitterid {
+        position: absolute;
+        width: 15em;
+        right: 26%;
+        top:79%;
+    }
+ }
+
+ @media (max-width:559px) {
+    .bloc {
+        position: absolute;
+        width: 70%;
+        height: 52%;
+        top:30%;
+    }
+    #twitterid {
+        position: absolute;
+        width: 15em;
+        right: 25%;
+        top:83%;
+    }
+ }
+
+ /*KeyFrame pour animer :*/
+
+@keyframes move {
+    from { transform: translateY(350px);
+
+    }
+    to { transform: translateY(0);
+
+    }
+}
+
+
+@keyframes feature {
+    from { transform: translateX(400px);
+
+    }
+    to { transform: translateX(0);
+
+    }
+}
+
+@keyframes features {
+    from { transform: translateX(-400px);
+
+    }
+    to { transform: translateX(0);
+
+    }
+}
+
+/* fin KeyFrame*/
