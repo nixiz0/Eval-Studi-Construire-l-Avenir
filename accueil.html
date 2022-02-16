@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!-- Déclaration du head, mise en place des balises de référencements, du titre ainsi que des liens CSS -->
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Association Construire l'Avenir, mouvement éco-moderniste, Ici on parle de climat, d’écologie, 
+        d’économie, de physique, de nucléaire… et surtout d‘écomodernisme, 
+        ce nouveau courant de pensée qui vise à concilier la protection de l’environnement et le développement technologique, économique et social de notre civilisation">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="index, follow">
+        <title> Construire l'Avenir Accueil </title>
+        <link rel="icon" type="image/jpg" sizes="16x16" href="./Docs/Logo CA.jpg">
+        <link href="./css.css" rel="stylesheet">
+        <link href="./Bootstrap/css/bootstrap.css" rel="stylesheet">
+    </head>
+
+<!-- Création du corps du site -->
+
+    <body>
+        <header>
+            <div class="ca">
+                <h1> Construire l'Avenir </h1>
+            </div>
+
+            <!-- Balise nav sous format liste avec les "li" -->
+
+            <nav>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                      <a class="nav-link" style="color:black; text-decoration:none;font-size: 20px;" href="./accueil.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" style="color:black; text-decoration:none;font-size: 20px;" href="./Blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" style="color:black; text-decoration:none;font-size: 20px;" href="./a_propos.html">À propos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" style="color:black; text-decoration:none;font-size: 20px;" href="./contact.html">Contact</a>
+                    </li>
+                  </ul>
+            </nav>
+
+        </header>
+
+        <!-- Premier block contenant le bienvenu ainsi que le block blanc en dessous pour introduire le site -->
+
+        <div class="containers">
+            <div class="titre">
+                <img style="position:relative" src="./Docs/centrale nuc.jpg" alt="image" width="2000px" height="750px">
+                <h2 class="bienvenue"> Bienvenue sur Construire l'Avenir !</h2>
+                <span class="damien"> Par Damien Conzelmann </span>
+                    <div class="bloc">
+                        <span style="text-align: center;display: flex; font-size: 22px;padding: 10px;"> Ici on parle de climat, d’écologie, d’économie, de physique, de nucléaire… et surtout d‘écomodernisme, 
+                            ce nouveau courant de pensée qui vise à concilier la protection de l’environnement et le développement technologique, 
+                            économique et social de notre civilisation </span>
+                    </div>
+            </div>
+
+            <div class="btn-group" id="twitterid">
+                <a href="./evenements.html" target="_blank" class="btn btn-primary active" aria-current="page">Nos événements</a>
+            </div>
+        </div>
+
+        <!-- Deuxième blocks contenant les 3 articles en dessous de l'image -->
+
+        <div class="article">
+            <h3 style="font-size:35px"><b> Articles récents </b></h3>
+            <div>
+                <div class="arti"> 
+                <article class="article1">
+                    <a style="text-decoration:none; color:black; font-size:25px;" href="">  <b> L’avenir est là, la France y sera </b></a>
+                    <p> 
+                        Tribune de Julien Bruant, lycéen. Il y a quelques semaines, l’Australie annonçait renoncer aux sous-marins diesel qui devaient être livrés par la France via Naval group. 
+                        La crise qui s’en suivra va probablement affaiblir les relations entre la France et l’Australie et avec les Etats-Unis, 
+                        mais force est de constater que celle-ci sera rapidement oubliée 
+                        par la majorité des français et que l’image de ces pays ne sera pas fondamentalement changée pour autant.
+                    </p>
+                    <p class="date"> 11 octobre 2021 </p>
+                </article>
+                </div>
+
+                <div class="arti">
+                <article class="article1">
+                    <a style="text-decoration:none; color:black; font-size:25px;" href="">  <b> Le débat croissance/décroissance : un débat infini (et non productif !) dans un espace Twitter fini </b></a>
+                    <p> 
+                        Pour résoudre un problème, il est toujours important d’en poser correctement les termes, de poser les bonnes questions pour obtenir les bonnes réponses. 
+                        La résolution de la crise environnementale suppose de répondre à deux questions : comment réduire les impacts environnementaux de l’activité humaine et comment faire 
+                        face à la rareté de certaines ressources ? 
+                    </p>
+                    <p class="date"> 8 septembre 2021 </p>
+            
+                </article>
+                </div>
+
+                <div class="arti">
+                <article class="article1">
+                    <a style="text-decoration:none; color:black; font-size:25px;" href="">  <b> Quel avenir pour l’énergie en France, quelles conséquences de l’abandon du nucléaire ? </b></a>
+                    <p> 
+                        Par Julien Bruant, lycéen Il y a peu de temps, une nouvelle publication du GIEC est parue. Devant le constat implacable de la dangerosité des énergies fossiles, 
+                        il est aujourd’hui impératif de se poser la question “Comment produire notre énergie dans 10, 20, 30 ans voire plus ?”. En France, la production de notre électricité
+                    </p>
+                    <p class="date"> 6 septembre 2021 </p>
+            
+                </article>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pied de la page, ajout d'un boutton pour une potentiel newsletters -->
+
+        <footer>
+            <div class="newsletter">
+                <p style="color:white; font-size: 25px;"> Ce blog vous intéresse ? Vous êtes libre de vous inscrire à la newsletter ! </p>
+            </div>
+
+            <div class="mailing">
+                <input type="email" name="email" placeholder="Entrez votre adresse e-mail" size="40px">
+            </div>
+            <div class="envoyer">
+                <button>Envoyer</button>
+              </div>
+        </footer>
+    </body>
+</html>
