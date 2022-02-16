@@ -1,0 +1,283 @@
+html {
+    overflow-x: hidden;
+}
+
+.welcome {
+    text-shadow: 1px 2px 1px black;
+    position: absolute;
+    color:white;
+    font-size: 45px;
+    padding: 40px;
+}
+
+.titres {
+    width: 100%;
+    height: 98%;
+    display: flex;
+    justify-content: center;
+    overflow-y: hidden; 
+    overflow-x: hidden;
+}
+
+.blocevent {
+    background-color: white;
+    position: absolute;
+    width: 70%;
+    height: 9%;
+    top: 22%;
+    border-radius: 20px;
+}
+
+.conteneur {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.premierb {
+    margin: 20px;
+    width: 50%;
+    height: 600px;
+    font-family:'Roboto', sans-serif;
+    font-size:22px;
+    text-align: center;
+    animation: features;
+    animation-duration: 2000ms;
+}
+
+.deuxiemb {
+    width: 50%;
+    height: 600px;
+    font-family:'Roboto', sans-serif;
+    font-size:22px;
+    text-align: center;
+    animation: feature;
+    animation-duration: 2000ms;
+}
+
+.troisb {
+    width: 50%;
+    height: 600px;
+    font-family:'Roboto', sans-serif;
+    font-size:22px;
+    text-align: center;
+    animation: features;
+    animation-duration: 2000ms;
+}
+
+.quatreb {
+    width: 50%;
+    height: 600px;
+    font-family:'Roboto', sans-serif;
+    font-size:22px;
+    text-align: center;
+    animation: feature;
+    animation-duration: 2000ms;
+}
+
+.titro {
+    font-size: 35px;
+    font-weight:600;
+}
+
+.planteuh {
+    width: auto;
+    height: 1500px;
+    opacity:50%; 
+    position:absolute; 
+    right:570px; 
+    top:895px;
+}
+
+@media (max-width:1900px) {
+    .blocevent {
+        background-color: white;
+        position: absolute;
+        width: 70%;
+        height: 11%;
+        top: 22%;
+        border-radius: 20px;
+    }
+    .welcome {
+        text-shadow: 1px 2px 1px black;
+        position: absolute;
+        color:white;
+        font-size: 45px;
+        padding: 40px;
+        top:350px;
+    }
+}
+
+@media (max-width:1800px) and(max-height:1007px) {
+    .blocevent {
+        background-color: white;
+        position: absolute;
+        width: 70%;
+        height: 14%;
+        top: 22%;
+        border-radius: 20px;
+    }
+    .planteuh {
+        display: none;
+    }
+}
+
+@media (max-width:1772px) {
+    .blocevent {
+        background-color: white;
+        position: absolute;
+        width: 70%;
+        height: 17%;
+        top: 22%;
+        border-radius: 20px;
+    }
+    .welcome {
+        text-shadow: 1px 2px 1px black;
+        position: absolute;
+        color:white;
+        font-size: 45px;
+        padding: 40px;
+        top:400px;
+    }
+    .planteuh {
+        display: none;
+    }
+}
+
+@media (max-width:1650px) {
+    .blocevent {
+        background-color: white;
+        position: absolute;
+        width: 70%;
+        height: 17%;
+        top: 22%;
+        border-radius: 20px;
+    }
+    .welcome {
+        text-shadow: 1px 2px 1px black;
+        position: absolute;
+        color:white;
+        font-size: 45px;
+        padding: 40px;
+        top:350px;
+    }
+}
+
+@media (max-width:1451px) {
+    .conteneur, .premierb, .deuxiemb, .troisb, .quatreb {
+        display: block;
+        justify-content:center;
+        align-items: center;
+        padding-top: 100px;
+        margin-top: 70px;
+    }
+}
+
+
+@media (max-width:1194px) {
+    .blocevent {
+        background-color: white;
+        position: absolute;
+        width: 70%;
+        height: 19%;
+        top: 22%;
+        border-radius: 20px;
+    }
+    .welcome {
+        text-shadow: 1px 2px 1px black;
+        position: absolute;
+        color:white;
+        font-size: 45px;
+        padding: 40px;
+        top:350px;
+    }
+    .premierb, .deuxiemb, .troisb, .quatreb {
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width:934px) {
+    .blocevent {
+        background-color: white;
+        position: absolute;
+        width: 70%;
+        height: 24%;
+        top: 22%;
+        border-radius: 20px;
+    }
+    .welcome {
+        text-shadow: 1px 2px 1px black;
+        position: absolute;
+        color:white;
+        font-size: 45px;
+        padding: 40px;
+        top:400px;
+    }
+    .premierb, .deuxiemb, .troisb, .quatreb {
+        margin-bottom: 200px;
+    }
+}
+
+@media (max-width:739px) {
+    .blocevent {
+        background-color: white;
+        position: absolute;
+        width: 70%;
+        height: 29%;
+        top: 22%;
+        border-radius: 20px;
+    }
+    .welcome {
+        text-shadow: 1px 2px 1px black;
+        position: absolute;
+        color:white;
+        font-size: 45px;
+        padding: 40px;
+        top:400px;
+        text-align: center;
+    }
+}
+
+@media (max-width:651px) {
+    .blocevent {
+        background-color: white;
+        position: absolute;
+        width: 70%;
+        height: 34%;
+        top: 22%;
+        border-radius: 20px;
+    }
+    .premierb, .deuxiemb, .troisb, .quatreb {
+        margin-bottom: 500px;
+    }
+}
+
+@media (max-width:538px) {
+    .blocevent {
+        background-color: white;
+        position: absolute;
+        width: 70%;
+        height: 39%;
+        top: 22%;
+        border-radius: 20px;
+    }
+    .welcome {
+        text-shadow: 1px 2px 1px black;
+        position: absolute;
+        color:white;
+        font-size: 45px;
+        padding: 40px;
+        top:600px;
+    }
+}
+
+@media (max-width:522px) {
+    .blocevent {
+        background-color: white;
+        position: absolute;
+        width: 70%;
+        height: 50%;
+        top: 22%;
+        border-radius: 20px;
+    }
+}
