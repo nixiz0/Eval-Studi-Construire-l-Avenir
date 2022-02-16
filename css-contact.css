@@ -1,0 +1,48 @@
+.h2contact {
+    position: relative;
+    font-size:50px; 
+    font-family:'Roboto', sans-serif;
+}
+
+.h2contact::after{
+    content: '';
+    position: absolute;
+    left: -4em;
+    width:600px;
+    height: 1.2px;
+    background-color: rgb(159, 175, 160);
+    top: -1em;
+}
+
+.h2contact::before {
+    content: '';
+    position: absolute;
+    left: -4em;
+    width:600px;
+    height: 1.2px;
+    background-color: rgb(159, 175, 160);
+    top: 2.4em;
+}
+
+.suivez {
+    margin-top: 100px;
+    margin-bottom: 35px;
+    font-family:'Roboto', sans-serif;
+    font-weight:500;
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+}
+
+.reseaux {
+    display: flex;
+    justify-content: center;
+    font-family:'Roboto', sans-serif;
+    font-size: 29px;
+}
+
+.frame {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
