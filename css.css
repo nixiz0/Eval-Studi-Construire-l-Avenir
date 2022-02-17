@@ -230,11 +230,22 @@ footer {
         top:67%;
     }
     
-   .bienvenue {
-    display: none;
+ @media (max-width:761px) {
+    .bloc {
+        position: absolute;
+        width: 70%;
+        height: 35%;
+        top:30%;
+        margin-top: 50px;
+    }
+    #twitterid {
+        position: absolute;
+        width: 15em;
+        right: 33%;
+        top:67%;
+        margin-top: 50px;
+    }
 }
-
- }
 
  @media (max-width:628px) {
     .bloc {
